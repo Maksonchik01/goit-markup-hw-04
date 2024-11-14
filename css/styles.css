@@ -258,6 +258,18 @@ p {
   color: #2e2f42;
   margin-bottom: 8px;
 }
+.icon { 
+fill: #4D5AE5;
+width: 232px;
+ height: 40px;
+ gap: 24px;
+ margin-bottom: 32px;
+}
+
+.icon:hover {
+  fill: #31D0AA;
+}
+
 .section-portfolio {
   padding: 120px 0 120px 0;
 }
