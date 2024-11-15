@@ -285,17 +285,12 @@ p {
 }
 .social-links {
 display: flex;
+justify-content: center;
+align-items: center;
  gap: 24px;
 
 }
-.social-inst,
-.social-twitter,
-.social-facebook, 
-.social-linkedin {
-display: flex;
-justify-content: center;
-align-items: center;
-}
+
 .icon { 
 fill: #4D5AE5;
 width: 232px;
