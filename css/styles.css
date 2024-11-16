@@ -50,7 +50,8 @@ p {
 }
 .main-header {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .title {
@@ -139,7 +140,6 @@ p {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .contact-info:hover,
 .contact-info:focus {
   color: #404bbf;
@@ -219,9 +219,9 @@ p {
 
 .svg-item {
   width: 264px;
-  height: 112px; 
+  height: 112px;
   border: 1px solid lightslategray;
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
   border-radius: 4px;
   padding: 24px 100px;
 }
@@ -246,7 +246,6 @@ p {
   color: #434455;
 }
 
-
 .section-team {
   background-color: #f4f4fd;
   padding: 120px 0;
@@ -269,7 +268,8 @@ p {
   border-radius: 0 0 4px 4px;
   width: calc((100% - 72px) / 4);
   text-align: center;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .employees {
   padding: 32px 0;
@@ -287,32 +287,32 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px; 
+  gap: 24px;
   padding: 0;
   margin-bottom: 32px;
   list-style: none;
 }
 .list-icon {
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 40px;
   height: 40px;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   border-radius: 50%;
-  box-sizing: border-box; 
-  transition: background-color 250ms ease ;
+  box-sizing: border-box;
+  transition: background-color 250ms ease;
 }
 
 .icon {
   width: 16px;
   height: 16px;
-  fill: #FFFFFF; 
-  display: block; 
+  fill: #ffffff;
+  display: block;
 }
 
 .list-icon:hover {
-  background-color: #31D0AA;
+  background-color: #31d0aa;
 }
 
 .section-portfolio {
@@ -362,15 +362,14 @@ p {
   line-height: 1.28;
   letter-spacing: -0.02em;
   color: #fafafa;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: ease-in;
   transition-delay: 100ms;
-
 }
 .cashless-div:hover .overlay {
-transform: translateY(0);
+  transform: translateY(0);
 }
 .title-portfolio {
   font-weight: 500;
@@ -390,12 +389,12 @@ transform: translateY(0);
   color: #f4f4fd;
   background-color: #2e2f42;
   padding: 100px 0;
-
-
-  
+}
+.footer-wrapper {
+  display: flex;
 }
 .title-footer {
-  display: inline-block;
+  display: flex;
   font-family: 'Raleway', sans-serif;
   color: #4d5ae5;
   font-weight: 700;
@@ -418,13 +417,19 @@ transform: translateY(0);
 .studio-footer {
   color: #f4f4fd;
 }
+
 .social-footer {
-  display: flex;
+  margin-left: 120px;
   align-items: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 100px;
-  margin-left: 540px; 
+}
+.social-list {
+  margin-left: 120px;
+}
+.icon-footer {
+  display: flex;
+  margin-top: 10px;
 }
