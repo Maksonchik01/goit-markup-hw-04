@@ -146,7 +146,7 @@ p {
 }
 
 .hero-img {
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.png); 
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg); 
   padding: 188px 0;
   background-size: cover;
   background-position: center;
@@ -205,9 +205,8 @@ p {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.section-items {
 
-}
+
 .section-item {
   display: flex;
   justify-content: center;
@@ -216,6 +215,7 @@ p {
   gap: 24px;
   height: 112px;
   margin-bottom: 8px;
+  
 }
 
 .item {
