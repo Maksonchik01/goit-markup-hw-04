@@ -301,6 +301,7 @@ p {
   background-color: #4D5AE5;
   border-radius: 50%;
   box-sizing: border-box; 
+  transition: background-color 250ms ease ;
 }
 
 .icon {
@@ -310,8 +311,8 @@ p {
   display: block; 
 }
 
-.icon:hover {
-  fill: #31D0AA;
+.list-icon:hover {
+  background-color: #31D0AA;
 }
 
 .section-portfolio {
@@ -363,7 +364,7 @@ p {
   color: #fafafa;
   background-color: #4D5AE5;
   transition-property: transform;
-  transition-duration: 300ms;
+  transition-duration: 250ms;
   transition-timing-function: ease-in;
   transition-delay: 100ms;
 
@@ -389,6 +390,9 @@ transform: translateY(0);
   color: #f4f4fd;
   background-color: #2e2f42;
   padding: 100px 0;
+
+
+  
 }
 .title-footer {
   display: inline-block;
@@ -413,4 +417,13 @@ transform: translateY(0);
 
 .studio-footer {
   color: #f4f4fd;
+}
+.social-footer {
+  display: flex;
+  align-items: center; 
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-left: 100px; 
 }
